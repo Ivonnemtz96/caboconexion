@@ -87,7 +87,7 @@ if (isset($_SESSION["UserId"])) {
                     <section class="gray-section p-10 ">
                         <div class="container">
                             <div class="section-title">
-                                <h2>Todos los productoss</h2>
+                                <h2>Todos los productos</h2>
                                 <span class="section-separator"></span>
                                 <p>1-16 de 148 Productos</p>
                             </div>
