@@ -1,0 +1,3 @@
+[19-Dec-2022 15:30:37 America/Tijuana] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/caboconexion/panel/editar/servicio.php on line 143
+[19-Dec-2022 15:30:37 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home2/grupoar6/public_html/caboconexion/panel/editar/servicio.php on line 246
+[19-Dec-2022 15:30:37 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home2/grupoar6/public_html/caboconexion/panel/editar/servicio.php on line 246

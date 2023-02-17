@@ -1,0 +1,18 @@
+[11-Jan-2023 17:41:00 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catProd' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:149
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/include/Database.php(149): PDOStatement->execute()
+#1 /home2/grupoar6/public_html/caboconexion/admin/editar/categoria-productos.php(22): Database->getAllRecords('catProd', '*', ' AND id="2"', 'LIMIT 1')
+#2 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 149
+[11-Jan-2023 18:25:39 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catServicio' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:149
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/include/Database.php(149): PDOStatement->execute()
+#1 /home2/grupoar6/public_html/caboconexion/admin/editar/subcategoria-servicios.php(67): Database->getAllRecords('catServicio', '*', 'AND id="36"LIMI...')
+#2 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 149
+[11-Jan-2023 18:26:36 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catServicio' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:149
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/include/Database.php(149): PDOStatement->execute()
+#1 /home2/grupoar6/public_html/caboconexion/admin/editar/subcategoria-servicios.php(154): Database->getAllRecords('catServicio', '*', ' ORDER BY nombr...')
+#2 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 149

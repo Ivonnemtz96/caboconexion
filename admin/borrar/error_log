@@ -1,0 +1,5 @@
+[11-Jan-2023 18:37:22 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [42S22] : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'catSubProducto' in 'where clause' in /home2/grupoar6/public_html/caboconexion/include/Database.php:182
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/admin/borrar/subcategoria-productos.php(22): Database->getQueryCount('productos', '*', 'AND catSubProdu...')
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 182

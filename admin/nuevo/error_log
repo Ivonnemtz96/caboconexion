@@ -1,0 +1,28 @@
+[11-Jan-2023 17:23:05 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catProductos' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:149
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/include/Database.php(149): PDOStatement->execute()
+#1 /home2/grupoar6/public_html/caboconexion/admin/nuevo/categoria-productos.php(147): Database->getAllRecords('catProductos', '*', 'ORDER BY id DES...')
+#2 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 149
+[11-Jan-2023 17:24:57 America/Mazatlan] PHP Fatal error:  Uncaught RuntimeException: [42S02] : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catProductos' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:182
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/admin/nuevo/categoria-productos.php(24): Database->getQueryCount('catProductos', 'id')
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 182
+[11-Jan-2023 17:42:34 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catProductos' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:149
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/include/Database.php(149): PDOStatement->execute()
+#1 /home2/grupoar6/public_html/caboconexion/admin/nuevo/subcategoria-productos.php(122): Database->getAllRecords('catProductos', '*', ' ORDER BY nombr...')
+#2 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 149
+[11-Jan-2023 17:42:44 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'grupoar6_caboconexion2.catServicio' doesn't exist in /home2/grupoar6/public_html/caboconexion/include/Database.php:149
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/include/Database.php(149): PDOStatement->execute()
+#1 /home2/grupoar6/public_html/caboconexion/admin/nuevo/subcategoria-servicios.php(122): Database->getAllRecords('catServicio', '*', ' ORDER BY nombr...')
+#2 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 149
+[11-Jan-2023 18:39:53 America/Mazatlan] PHP Fatal error:  Uncaught RuntimeException: [23000] : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'categoria' cannot be null in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/admin/nuevo/subcategoria-productos.php(31): Database->insert('catSubProd', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
