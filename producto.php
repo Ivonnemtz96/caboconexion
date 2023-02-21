@@ -45,14 +45,7 @@
             <div class="content">
                 <!-- section-->
                 <section class="parallax-section single-par list-single-section" id="sec1">
-                    <div class="media-container video-parallax">
-                        <div class="bg mob-bg" style="background-image: url(images/bg/1.jpg)"></div>
-                        <div class="video-container">
-                            <video autoplay loop muted class="bgvid">
-                                <source src="video/1.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
+                <div class="bg par-elem "  data-bg="/images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
                     <div class="overlay"></div>
                     <div class="bubble-bg"></div>
                     <div class="list-single-header absolute-header fl-wrap">
@@ -383,6 +376,32 @@
                                     </div>
                                     <!-- list-single-main-item end -->
                                 </div>
+
+
+                                 <div class="box-widget-item fl-wrap">
+                                        <div class="box-widget-item-header">
+                                            <h3>Contactar al vendedor : </h3>
+                                        </div>
+                                        <div class="box-widget opening-hours">
+                                            <div class="box-widget-content">
+                                                <form class="add-comment custom-form">
+                                                    <fieldset>
+                                                        <label><i class="fa fa-user-o"></i></label>
+                                                        <input type="text" placeholder="Nombre *" value="" />
+                                                        <div class="clearfix"></div>
+                                                        <label><i class="fa fa-envelope-o"></i> </label>
+                                                        <input type="text" placeholder="Correo *" value="" />
+                                                        <label><i class="fa fa-phone"></i> </label>
+                                                        <input type="text" placeholder="Teléfono *" value="" />
+                                                        <textarea cols="40" rows="3"
+                                                            placeholder="Mensaje:"></textarea>
+                                                    </fieldset>
+                                                    <button class="btn  big-btn  color-bg flat-btn book-btn">Enviar<i
+                                                            class="fa fa-angle-right"></i></button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                             <!--box-widget-wrap -->
                             <div class="col-md-4">
@@ -414,43 +433,34 @@
                                     </div>
                                     <!--box-widget-item end -->
                                     <!--box-widget-item -->
+                                   
+                                    <!--box-widget-item end -->
+                                     <!--box-widget-item -->
                                     <div class="box-widget-item fl-wrap">
                                         <div class="box-widget-item-header">
-                                            <h3>Contactar al vendedor : </h3>
+                                            <h3>Publicado por: </h3>
                                         </div>
-                                        <div class="box-widget opening-hours">
+                                        <div class="box-widget list-author-widget">
+                                            <div class="list-author-widget-header shapes-bg-small  color-bg fl-wrap">
+                                                <span class="list-author-widget-link"><a href="author-single.html">Alisa
+                                                        Noory</a></span>
+                                                <img src="images/avatar/1.jpg" alt="">
+                                            </div>
                                             <div class="box-widget-content">
-                                                <form class="add-comment custom-form">
-                                                    <fieldset>
-                                                        <label><i class="fa fa-user-o"></i></label>
-                                                        <input type="text" placeholder="Nombre *" value="" />
-                                                        <div class="clearfix"></div>
-                                                        <label><i class="fa fa-envelope-o"></i> </label>
-                                                        <input type="text" placeholder="Correo *" value="" />
-                                                        <label><i class="fa fa-phone"></i> </label>
-                                                        <input type="text" placeholder="Teléfono *" value="" />
-                                                        <!-- <div class="quantity fl-wrap">
-                                                            <span><i class="fa fa-user-plus"></i>Persons : </span>
-                                                            <div class="quantity-item">
-                                                                <input type="button" value="-" class="minus">
-                                                                <input type="text" name="quantity" title="Qty"
-                                                                    class="qty" min="1" max="3" step="1" value="1">
-                                                                <input type="button" value="+" class="plus">
-                                                            </div>
-                                                        </div> -->
-                                                        <!-- <select data-placeholder="Ticket Type" class="chosen-select">
-                                                            <option value="Ticket Type">Ticket Type</option>
-                                                            <option value="Standard Pass">Standard Pass</option>
-                                                            <option value="Silver Pass">Silver Pass</option>
-                                                            <option value="Gold Pass">Gold Pass</option>
-                                                            <option value="Platinum Pass">Platinum Pass</option>
-                                                        </select> -->
-                                                        <textarea cols="40" rows="3"
-                                                            placeholder="Mensaje:"></textarea>
-                                                    </fieldset>
-                                                    <button class="btn  big-btn  color-bg flat-btn book-btn">Enviar<i
-                                                            class="fa fa-angle-right"></i></button>
-                                                </form>
+                                                <div class="list-author-widget-text">
+                                                    <div class="list-author-widget-contacts">
+                                                        <ul>
+                                                            <li><span><i class="fa fa-phone"></i> Teléfono:</span> <a
+                                                                    href="#">+52 123 456 7890</a></li>
+                                                            <li><span><i class="fa fa-envelope-o"></i> Correo:</span> <a
+                                                                    href="#">info@caboconexion.com</a></li>
+                                                            <li><span><i class="fa fa-globe"></i> Website :</span> <a
+                                                                    href="#">propisandeco.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="#" class="btn transparent-btn">
+                                                        <i class="fa fa-eye"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -490,81 +500,8 @@
                                         </div>
                                     </div>
                                     <!--box-widget-item end -->
-                                    <!--box-widget-item -->
-                                    <div class="box-widget-item fl-wrap">
-                                        <div class="box-widget-item-header">
-                                            <h3>Publicado por: </h3>
-                                        </div>
-                                        <div class="box-widget list-author-widget">
-                                            <div class="list-author-widget-header shapes-bg-small  color-bg fl-wrap">
-                                                <span class="list-author-widget-link"><a href="author-single.html">Alisa
-                                                        Noory</a></span>
-                                                <img src="images/avatar/1.jpg" alt="">
-                                            </div>
-                                            <div class="box-widget-content">
-                                                <div class="list-author-widget-text">
-                                                    <div class="list-author-widget-contacts">
-                                                        <ul>
-                                                            <li><span><i class="fa fa-phone"></i> Phone :</span> <a
-                                                                    href="#">+52 123 456 7890</a></li>
-                                                            <li><span><i class="fa fa-envelope-o"></i> Mail :</span> <a
-                                                                    href="#">AlisaNoory@domain.com</a></li>
-                                                            <li><span><i class="fa fa-globe"></i> Website :</span> <a
-                                                                    href="#">themeforest.net</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <a href="author-single.html" class="btn transparent-btn">View
-                                                        Profile <i class="fa fa-eye"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--box-widget-item end -->
-                                    <!--box-widget-item -->
-                                    <div class="box-widget-item fl-wrap">
-                                        <div class="box-widget-item-header">
-                                            <h3>More from this employer : </h3>
-                                        </div>
-                                        <div class="box-widget widget-posts">
-                                            <div class="box-widget-content">
-                                                <ul>
-                                                    <li class="clearfix">
-                                                        <a href="#" class="widget-posts-img"><img src="images/all/1.jpg"
-                                                                alt=""></a>
-                                                        <div class="widget-posts-descr">
-                                                            <a href="#" title="">Cafe "Lollipop"</a>
-                                                            <span class="widget-posts-date"><i
-                                                                    class="fa fa-calendar-check-o"></i> 21 Mar 2017
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="clearfix">
-                                                        <a href="#" class="widget-posts-img"><img src="images/all/1.jpg"
-                                                                alt=""></a>
-                                                        <div class="widget-posts-descr">
-                                                            <a href="#" title=""> Apartment in the Center</a>
-                                                            <span class="widget-posts-date"><i
-                                                                    class="fa fa-calendar-check-o"></i> 7 Mar 2017
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="clearfix">
-                                                        <a href="#" class="widget-posts-img"><img src="images/all/1.jpg"
-                                                                alt=""></a>
-                                                        <div class="widget-posts-descr">
-                                                            <a href="#" title="">Event in City Mol</a>
-                                                            <span class="widget-posts-date"><i
-                                                                    class="fa fa-calendar-check-o"></i> 7 Mar 2017
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <a class="widget-posts-link" href="#">See All Listing<span><i
-                                                            class="fa fa-angle-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--box-widget-item end -->
+                                   
+                                    
                                 </div>
                             </div>
                             <!--box-widget-wrap end -->
