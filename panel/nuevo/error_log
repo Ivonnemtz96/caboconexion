@@ -1,0 +1,48 @@
+[21-Feb-2023 18:40:35 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [42S22] : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fPortada' in 'field list' in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(103): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[21-Feb-2023 18:41:45 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [42S22] : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'catSubServicio' in 'field list' in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(103): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[21-Feb-2023 18:42:15 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [42S22] : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'catSubProducto' in 'field list' in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(103): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[21-Feb-2023 18:42:52 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [23000] : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`grupoar6_caboconexion2`.`productos`, CONSTRAINT `productos_ibfk_3` FOREIGN KEY (`catProducto`) REFERENCES `catProducto` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(103): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[21-Feb-2023 18:45:28 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[21-Feb-2023 18:45:28 America/Denver] PHP Notice:  Trying to access array offset on value of type null in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[21-Feb-2023 18:45:28 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [23000] : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catProducto' cannot be null in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(105): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[21-Feb-2023 18:46:21 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[21-Feb-2023 18:46:21 America/Denver] PHP Notice:  Trying to access array offset on value of type null in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[21-Feb-2023 18:46:22 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [23000] : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catProducto' cannot be null in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(105): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[21-Feb-2023 18:46:58 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[21-Feb-2023 18:46:58 America/Denver] PHP Notice:  Trying to access array offset on value of type null in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[21-Feb-2023 18:46:58 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [23000] : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catProducto' cannot be null in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(105): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
+[10-Mar-2023 15:51:42 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[10-Mar-2023 15:51:42 America/Denver] PHP Notice:  Trying to access array offset on value of type null in /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php on line 88
+[10-Mar-2023 15:51:42 America/Denver] PHP Fatal error:  Uncaught RuntimeException: [23000] : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catProducto' cannot be null in /home2/grupoar6/public_html/caboconexion/include/Database.php:263
+Stack trace:
+#0 /home2/grupoar6/public_html/caboconexion/panel/nuevo/producto.php(105): Database->insert('productos', Array)
+#1 {main}
+  thrown in /home2/grupoar6/public_html/caboconexion/include/Database.php on line 263
